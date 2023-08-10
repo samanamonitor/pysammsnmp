@@ -1,0 +1,9 @@
+build/*
+debian/control
+dist/*
+gpg/*
+*.deb
+__pycache__
+*.egg-info
+*.private
+samm-pysammsnmp_*_amd64/*
