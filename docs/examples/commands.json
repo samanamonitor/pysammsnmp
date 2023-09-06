@@ -1,0 +1,24 @@
+[
+	{
+		"object_type": "command",
+		"name": "snmp_table",
+		"type": "sammsnmp.SnmpQuery",
+		"args": {
+			"hostaddress": "$(instance.address)",
+			"community": "$(resources.community)",
+			"mib_module_name": "$(check.mib_module_name)",
+			"table": "$(check.table)"
+		}
+	},
+	{
+		"object_type": "command",
+		"name": "snmp_vars",
+		"type": "sammsnmp.SnmpQuery",
+		"args": {
+			"hostaddress": "$(instance.address)",
+			"community": "$(instance.community)",
+			"mib_module_name": "$(check.mib_module_name)",
+			"mib_variable_name_list": "$(check.mib_variable_name_list)"
+		}
+	}
+]
