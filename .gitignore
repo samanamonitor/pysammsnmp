@@ -1,7 +1,7 @@
 build/*
 debian/control
 dist/*
-gpg/*
+gpg
 *.deb
 __pycache__
 *.egg-info
