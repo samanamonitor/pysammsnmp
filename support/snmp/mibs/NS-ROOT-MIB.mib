@@ -4441,7 +4441,7 @@ cpeeNetmask OBJECT-TYPE
     ::= { cpeExprConfigStatsEntry 9 }
 
 EntityProtocolType ::=
-	INTEGER{ http(0), ftp(1), tcp(2), udp(3), sslBridge(4), monitor(5), monitorUdp(6), nntp(7), httpserver(8), httpclient(9), rpcserver(10), rpcclient(11), nat(12), any(13), ssl(14), dns(16), adns(17), snmp(18), ha(19), monitorPing(20), sslOtherTcp(21), aaa(22), secureMonitor(23), sslvpnUdp(24), rip(25), dnsClient(26), rpcServer(27), rpcClient(28), dhcrpa(36), sipudp(39), siptcp(40), siptls(41), dnstcp(48), adnstcp(49), rtsp(50), push(52), sslPush(53), dhcpClient(54), radius(55), rdp(61), mysql(62), mssql(63), diameter(73), sslDiameter(74), tftp(75), tftp(90), pptp(91), gre(92), fix(95), sslFix(96), userTcp(104), userSslTcp(105), mongo(113), mongoTls(114), mqtt(116), mqttTls(117), quicBridge(118), serviceUnknown(120) }
+	INTEGER{ http(0), ftp(1), tcp(2), udp(3), sslBridge(4), monitor(5), monitorUdp(6), nntp(7), httpserver(8), httpclient(9), rpcserver(10), rpcclient(11), nat(12), any(13), ssl(14), dns(16), adns(17), snmp(18), ha(19), monitorPing(20), sslOtherTcp(21), aaa(22), secureMonitor(23), sslvpnUdp(24), rip(25), dnsClient(26), rpcServer(27), rpcClient(28), dhcrpa(36), sipudp(39), siptcp(40), siptls(41), dnstcp(48), adnstcp(49), rtsp(50), push(52), sslPush(53), dhcpClient(54), radius(55), rdp(61), mysql(62), mssql(63), diameter(73), sslDiameter(74), tftp(75), tftp90(90), pptp(91), gre(92), fix(95), sslFix(96), userTcp(104), userSslTcp(105), mongo(113), mongoTls(114), mqtt(116), mqttTls(117), quicBridge(118), serviceUnknown(120) }
 
 EntityState ::=
 	INTEGER{ down(1), unknown(2), busy(3), outOfService(4), transitionToOutOfService(5), up(7), transitionToOutOfServiceDown(8) }
