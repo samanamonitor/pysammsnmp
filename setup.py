@@ -18,5 +18,5 @@ if __name__ == "__main__":
         version=__version__,
         packages=find_packages(include=['sammsnmp', 'sammsnmp.*']),
         data_files=[('/usr/share/snmp/mibs/', glob('support/snmp/mibs/*') )],
-        install_requires=[ 'pysnmp' ]
+        install_requires=[ 'easysnmp' ]
     )
