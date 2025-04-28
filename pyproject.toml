@@ -4,7 +4,14 @@ requires = [ "setuptools>=40.8.0" ]
 [project]
 name = "sammsnmp"
 dynamic = ["version"]
-dependencies = [
-	"easysnmp"
-	]
+dependencies = [ "easysnmp" ]
 
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = [ "." ]
+include = [ 'sammsnmp', 'sammsnmp.*' ]
+
+[tool.setuptools.package-data]
+sammsnmp = [ "mibs/*.mib" ]
